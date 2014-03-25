@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C87AF2318E24F1F00A95FDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C87AF2218E24F1F00A95FDB /* Foundation.framework */; };
+		1C87AF2518E24F1F00A95FDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C87AF2418E24F1F00A95FDB /* CoreGraphics.framework */; };
+		1C87AF2718E24F1F00A95FDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C87AF2618E24F1F00A95FDB /* UIKit.framework */; };
+		1C87AF2918E24F1F00A95FDB /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C87AF2818E24F1F00A95FDB /* SpriteKit.framework */; };
+		1C87AF2F18E24F1F00A95FDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C87AF2D18E24F1F00A95FDB /* InfoPlist.strings */; };
+		1C87AF3118E24F1F00A95FDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C87AF3018E24F1F00A95FDB /* main.m */; };
+		1C87AF3518E24F1F00A95FDB /* EDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C87AF3418E24F1F00A95FDB /* EDAppDelegate.m */; };
+		1C87AF3818E24F1F00A95FDB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C87AF3618E24F1F00A95FDB /* Main_iPhone.storyboard */; };
+		1C87AF3B18E24F1F00A95FDB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C87AF3918E24F1F00A95FDB /* Main_iPad.storyboard */; };
+		1C87AF3E18E24F1F00A95FDB /* EDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C87AF3D18E24F1F00A95FDB /* EDViewController.m */; };
+		1C87AF4118E24F1F00A95FDB /* EDMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C87AF4018E24F1F00A95FDB /* EDMyScene.m */; };
+		1C87AF4318E24F1F00A95FDB /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C87AF4218E24F1F00A95FDB /* Spaceship.png */; };
+		1C87AF4518E24F1F00A95FDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C87AF4418E24F1F00A95FDB /* Images.xcassets */; };
+		1C87AF4C18E24F1F00A95FDB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C87AF4B18E24F1F00A95FDB /* XCTest.framework */; };
+		1C87AF4D18E24F1F00A95FDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C87AF2218E24F1F00A95FDB /* Foundation.framework */; };
+		1C87AF4E18E24F1F00A95FDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C87AF2618E24F1F00A95FDB /* UIKit.framework */; };
+		1C87AF5618E24F1F00A95FDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C87AF5418E24F1F00A95FDB /* InfoPlist.strings */; };
+		1C87AF5818E24F1F00A95FDB /* Eat_DotsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C87AF5718E24F1F00A95FDB /* Eat_DotsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C87AF4F18E24F1F00A95FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C87AF1718E24F1F00A95FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C87AF1E18E24F1F00A95FDB;
+			remoteInfo = "Eat Dots";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C87AF1F18E24F1F00A95FDB /* Eat Dots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eat Dots.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C87AF2218E24F1F00A95FDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1C87AF2418E24F1F00A95FDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1C87AF2618E24F1F00A95FDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1C87AF2818E24F1F00A95FDB /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		1C87AF2C18E24F1F00A95FDB /* Eat Dots-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Eat Dots-Info.plist"; sourceTree = "<group>"; };
+		1C87AF2E18E24F1F00A95FDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1C87AF3018E24F1F00A95FDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C87AF3218E24F1F00A95FDB /* Eat Dots-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Eat Dots-Prefix.pch"; sourceTree = "<group>"; };
+		1C87AF3318E24F1F00A95FDB /* EDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDAppDelegate.h; sourceTree = "<group>"; };
+		1C87AF3418E24F1F00A95FDB /* EDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDAppDelegate.m; sourceTree = "<group>"; };
+		1C87AF3718E24F1F00A95FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		1C87AF3A18E24F1F00A95FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		1C87AF3C18E24F1F00A95FDB /* EDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDViewController.h; sourceTree = "<group>"; };
+		1C87AF3D18E24F1F00A95FDB /* EDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDViewController.m; sourceTree = "<group>"; };
+		1C87AF3F18E24F1F00A95FDB /* EDMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDMyScene.h; sourceTree = "<group>"; };
+		1C87AF4018E24F1F00A95FDB /* EDMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDMyScene.m; sourceTree = "<group>"; };
+		1C87AF4218E24F1F00A95FDB /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		1C87AF4418E24F1F00A95FDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1C87AF4A18E24F1F00A95FDB /* Eat DotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eat DotsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C87AF4B18E24F1F00A95FDB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1C87AF5318E24F1F00A95FDB /* Eat DotsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Eat DotsTests-Info.plist"; sourceTree = "<group>"; };
+		1C87AF5518E24F1F00A95FDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1C87AF5718E24F1F00A95FDB /* Eat_DotsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Eat_DotsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C87AF1C18E24F1F00A95FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C87AF2518E24F1F00A95FDB /* CoreGraphics.framework in Frameworks */,
+				1C87AF2718E24F1F00A95FDB /* UIKit.framework in Frameworks */,
+				1C87AF2918E24F1F00A95FDB /* SpriteKit.framework in Frameworks */,
+				1C87AF2318E24F1F00A95FDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C87AF4718E24F1F00A95FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C87AF4C18E24F1F00A95FDB /* XCTest.framework in Frameworks */,
+				1C87AF4E18E24F1F00A95FDB /* UIKit.framework in Frameworks */,
+				1C87AF4D18E24F1F00A95FDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C87AF1618E24F1F00A95FDB = {
+			isa = PBXGroup;
+			children = (
+				1C87AF2A18E24F1F00A95FDB /* Eat Dots */,
+				1C87AF5118E24F1F00A95FDB /* Eat DotsTests */,
+				1C87AF2118E24F1F00A95FDB /* Frameworks */,
+				1C87AF2018E24F1F00A95FDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C87AF2018E24F1F00A95FDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C87AF1F18E24F1F00A95FDB /* Eat Dots.app */,
+				1C87AF4A18E24F1F00A95FDB /* Eat DotsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C87AF2118E24F1F00A95FDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C87AF2218E24F1F00A95FDB /* Foundation.framework */,
+				1C87AF2418E24F1F00A95FDB /* CoreGraphics.framework */,
+				1C87AF2618E24F1F00A95FDB /* UIKit.framework */,
+				1C87AF2818E24F1F00A95FDB /* SpriteKit.framework */,
+				1C87AF4B18E24F1F00A95FDB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C87AF2A18E24F1F00A95FDB /* Eat Dots */ = {
+			isa = PBXGroup;
+			children = (
+				1C87AF3318E24F1F00A95FDB /* EDAppDelegate.h */,
+				1C87AF3418E24F1F00A95FDB /* EDAppDelegate.m */,
+				1C87AF3618E24F1F00A95FDB /* Main_iPhone.storyboard */,
+				1C87AF3918E24F1F00A95FDB /* Main_iPad.storyboard */,
+				1C87AF3C18E24F1F00A95FDB /* EDViewController.h */,
+				1C87AF3D18E24F1F00A95FDB /* EDViewController.m */,
+				1C87AF3F18E24F1F00A95FDB /* EDMyScene.h */,
+				1C87AF4018E24F1F00A95FDB /* EDMyScene.m */,
+				1C87AF4218E24F1F00A95FDB /* Spaceship.png */,
+				1C87AF4418E24F1F00A95FDB /* Images.xcassets */,
+				1C87AF2B18E24F1F00A95FDB /* Supporting Files */,
+			);
+			path = "Eat Dots";
+			sourceTree = "<group>";
+		};
+		1C87AF2B18E24F1F00A95FDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C87AF2C18E24F1F00A95FDB /* Eat Dots-Info.plist */,
+				1C87AF2D18E24F1F00A95FDB /* InfoPlist.strings */,
+				1C87AF3018E24F1F00A95FDB /* main.m */,
+				1C87AF3218E24F1F00A95FDB /* Eat Dots-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C87AF5118E24F1F00A95FDB /* Eat DotsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C87AF5718E24F1F00A95FDB /* Eat_DotsTests.m */,
+				1C87AF5218E24F1F00A95FDB /* Supporting Files */,
+			);
+			path = "Eat DotsTests";
+			sourceTree = "<group>";
+		};
+		1C87AF5218E24F1F00A95FDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C87AF5318E24F1F00A95FDB /* Eat DotsTests-Info.plist */,
+				1C87AF5418E24F1F00A95FDB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C87AF1E18E24F1F00A95FDB /* Eat Dots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C87AF5B18E24F1F00A95FDB /* Build configuration list for PBXNativeTarget "Eat Dots" */;
+			buildPhases = (
+				1C87AF1B18E24F1F00A95FDB /* Sources */,
+				1C87AF1C18E24F1F00A95FDB /* Frameworks */,
+				1C87AF1D18E24F1F00A95FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eat Dots";
+			productName = "Eat Dots";
+			productReference = 1C87AF1F18E24F1F00A95FDB /* Eat Dots.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C87AF4918E24F1F00A95FDB /* Eat DotsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C87AF5E18E24F1F00A95FDB /* Build configuration list for PBXNativeTarget "Eat DotsTests" */;
+			buildPhases = (
+				1C87AF4618E24F1F00A95FDB /* Sources */,
+				1C87AF4718E24F1F00A95FDB /* Frameworks */,
+				1C87AF4818E24F1F00A95FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C87AF5018E24F1F00A95FDB /* PBXTargetDependency */,
+			);
+			name = "Eat DotsTests";
+			productName = "Eat DotsTests";
+			productReference = 1C87AF4A18E24F1F00A95FDB /* Eat DotsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C87AF1718E24F1F00A95FDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ED;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Callisto Game Studios";
+				TargetAttributes = {
+					1C87AF4918E24F1F00A95FDB = {
+						TestTargetID = 1C87AF1E18E24F1F00A95FDB;
+					};
+				};
+			};
+			buildConfigurationList = 1C87AF1A18E24F1F00A95FDB /* Build configuration list for PBXProject "Eat Dots" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C87AF1618E24F1F00A95FDB;
+			productRefGroup = 1C87AF2018E24F1F00A95FDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C87AF1E18E24F1F00A95FDB /* Eat Dots */,
+				1C87AF4918E24F1F00A95FDB /* Eat DotsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C87AF1D18E24F1F00A95FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C87AF4318E24F1F00A95FDB /* Spaceship.png in Resources */,
+				1C87AF4518E24F1F00A95FDB /* Images.xcassets in Resources */,
+				1C87AF3B18E24F1F00A95FDB /* Main_iPad.storyboard in Resources */,
+				1C87AF3818E24F1F00A95FDB /* Main_iPhone.storyboard in Resources */,
+				1C87AF2F18E24F1F00A95FDB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C87AF4818E24F1F00A95FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C87AF5618E24F1F00A95FDB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C87AF1B18E24F1F00A95FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C87AF3E18E24F1F00A95FDB /* EDViewController.m in Sources */,
+				1C87AF3118E24F1F00A95FDB /* main.m in Sources */,
+				1C87AF3518E24F1F00A95FDB /* EDAppDelegate.m in Sources */,
+				1C87AF4118E24F1F00A95FDB /* EDMyScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C87AF4618E24F1F00A95FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C87AF5818E24F1F00A95FDB /* Eat_DotsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C87AF5018E24F1F00A95FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C87AF1E18E24F1F00A95FDB /* Eat Dots */;
+			targetProxy = 1C87AF4F18E24F1F00A95FDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C87AF2D18E24F1F00A95FDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C87AF2E18E24F1F00A95FDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1C87AF3618E24F1F00A95FDB /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C87AF3718E24F1F00A95FDB /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1C87AF3918E24F1F00A95FDB /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C87AF3A18E24F1F00A95FDB /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1C87AF5418E24F1F00A95FDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C87AF5518E24F1F00A95FDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C87AF5918E24F1F00A95FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C87AF5A18E24F1F00A95FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C87AF5C18E24F1F00A95FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Eat Dots/Eat Dots-Prefix.pch";
+				INFOPLIST_FILE = "Eat Dots/Eat Dots-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1C87AF5D18E24F1F00A95FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Eat Dots/Eat Dots-Prefix.pch";
+				INFOPLIST_FILE = "Eat Dots/Eat Dots-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1C87AF5F18E24F1F00A95FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Eat Dots.app/Eat Dots";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Eat Dots/Eat Dots-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Eat DotsTests/Eat DotsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1C87AF6018E24F1F00A95FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Eat Dots.app/Eat Dots";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Eat Dots/Eat Dots-Prefix.pch";
+				INFOPLIST_FILE = "Eat DotsTests/Eat DotsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C87AF1A18E24F1F00A95FDB /* Build configuration list for PBXProject "Eat Dots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C87AF5918E24F1F00A95FDB /* Debug */,
+				1C87AF5A18E24F1F00A95FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C87AF5B18E24F1F00A95FDB /* Build configuration list for PBXNativeTarget "Eat Dots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C87AF5C18E24F1F00A95FDB /* Debug */,
+				1C87AF5D18E24F1F00A95FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C87AF5E18E24F1F00A95FDB /* Build configuration list for PBXNativeTarget "Eat DotsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C87AF5F18E24F1F00A95FDB /* Debug */,
+				1C87AF6018E24F1F00A95FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C87AF1718E24F1F00A95FDB /* Project object */;
+}
