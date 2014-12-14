@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C122F3C18ECF312009B21AF /* EDCreditsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C122F3B18ECF312009B21AF /* EDCreditsScene.m */; };
+		1C35A83A1937CA4D00EDD783 /* EDHowToPlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C35A8391937CA4D00EDD783 /* EDHowToPlayScene.m */; };
 		1C87AF2318E24F1F00A95FDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C87AF2218E24F1F00A95FDB /* Foundation.framework */; };
 		1C87AF2518E24F1F00A95FDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C87AF2418E24F1F00A95FDB /* CoreGraphics.framework */; };
 		1C87AF2718E24F1F00A95FDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C87AF2618E24F1F00A95FDB /* UIKit.framework */; };
@@ -17,14 +19,27 @@
 		1C87AF3818E24F1F00A95FDB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C87AF3618E24F1F00A95FDB /* Main_iPhone.storyboard */; };
 		1C87AF3B18E24F1F00A95FDB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C87AF3918E24F1F00A95FDB /* Main_iPad.storyboard */; };
 		1C87AF3E18E24F1F00A95FDB /* EDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C87AF3D18E24F1F00A95FDB /* EDViewController.m */; };
-		1C87AF4118E24F1F00A95FDB /* EDMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C87AF4018E24F1F00A95FDB /* EDMyScene.m */; };
-		1C87AF4318E24F1F00A95FDB /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C87AF4218E24F1F00A95FDB /* Spaceship.png */; };
 		1C87AF4518E24F1F00A95FDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C87AF4418E24F1F00A95FDB /* Images.xcassets */; };
 		1C87AF4C18E24F1F00A95FDB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C87AF4B18E24F1F00A95FDB /* XCTest.framework */; };
 		1C87AF4D18E24F1F00A95FDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C87AF2218E24F1F00A95FDB /* Foundation.framework */; };
 		1C87AF4E18E24F1F00A95FDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C87AF2618E24F1F00A95FDB /* UIKit.framework */; };
 		1C87AF5618E24F1F00A95FDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1C87AF5418E24F1F00A95FDB /* InfoPlist.strings */; };
 		1C87AF5818E24F1F00A95FDB /* Eat_DotsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C87AF5718E24F1F00A95FDB /* Eat_DotsTests.m */; };
+		1C87AF6218E24F3F00A95FDB /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C87AF6118E24F3F00A95FDB /* iAd.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		1C87AF6918E24FC500A95FDB /* MenuLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C87AF6618E24FC500A95FDB /* MenuLabel.m */; };
+		1C87AF6A18E24FC500A95FDB /* TitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C87AF6818E24FC500A95FDB /* TitleLabel.m */; };
+		1C87AF7118E24FD300A95FDB /* Wamba.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C87AF6C18E24FD300A95FDB /* Wamba.m */; };
+		1C87AF7218E24FD300A95FDB /* RedBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C87AF6E18E24FD300A95FDB /* RedBlock.m */; };
+		1C87AF7318E24FD300A95FDB /* GreenDot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C87AF7018E24FD300A95FDB /* GreenDot.m */; };
+		1C87AF9E18E253D800A95FDB /* EDMainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C87AF9818E253D800A95FDB /* EDMainMenuScene.m */; };
+		1C87AF9F18E253D800A95FDB /* EDSettingsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C87AF9A18E253D800A95FDB /* EDSettingsScene.m */; };
+		1C87AFA018E253D800A95FDB /* EDGameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C87AF9C18E253D800A95FDB /* EDGameOverScene.m */; };
+		1C87AFA318E253F600A95FDB /* EDMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C87AFA218E253F600A95FDB /* EDMyScene.m */; };
+		1C9D4403192AE83300C23EE6 /* callistoLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C9D4402192AE83300C23EE6 /* callistoLogo.png */; };
+		1CA6D02019569CC600B074A4 /* green-dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6D01F19569CC600B074A4 /* green-dot.png */; };
+		1CA6D02219569CD700B074A4 /* enemy-blob.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6D02119569CD700B074A4 /* enemy-blob.png */; };
+		1CA6D02519569CE700B074A4 /* wamba.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6D02319569CE700B074A4 /* wamba.png */; };
+		1CA6D02619569CE700B074A4 /* wamba@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA6D02419569CE700B074A4 /* wamba@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C122F3A18ECF312009B21AF /* EDCreditsScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDCreditsScene.h; sourceTree = "<group>"; };
+		1C122F3B18ECF312009B21AF /* EDCreditsScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDCreditsScene.m; sourceTree = "<group>"; };
+		1C35A8381937CA4D00EDD783 /* EDHowToPlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDHowToPlayScene.h; sourceTree = "<group>"; };
+		1C35A8391937CA4D00EDD783 /* EDHowToPlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDHowToPlayScene.m; sourceTree = "<group>"; };
 		1C87AF1F18E24F1F00A95FDB /* Eat Dots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eat Dots.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C87AF2218E24F1F00A95FDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1C87AF2418E24F1F00A95FDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,15 +72,37 @@
 		1C87AF3A18E24F1F00A95FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		1C87AF3C18E24F1F00A95FDB /* EDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDViewController.h; sourceTree = "<group>"; };
 		1C87AF3D18E24F1F00A95FDB /* EDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDViewController.m; sourceTree = "<group>"; };
-		1C87AF3F18E24F1F00A95FDB /* EDMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDMyScene.h; sourceTree = "<group>"; };
-		1C87AF4018E24F1F00A95FDB /* EDMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDMyScene.m; sourceTree = "<group>"; };
-		1C87AF4218E24F1F00A95FDB /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		1C87AF4418E24F1F00A95FDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1C87AF4A18E24F1F00A95FDB /* Eat DotsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eat DotsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C87AF4B18E24F1F00A95FDB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1C87AF5318E24F1F00A95FDB /* Eat DotsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Eat DotsTests-Info.plist"; sourceTree = "<group>"; };
 		1C87AF5518E24F1F00A95FDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1C87AF5718E24F1F00A95FDB /* Eat_DotsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Eat_DotsTests.m; sourceTree = "<group>"; };
+		1C87AF6118E24F3F00A95FDB /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		1C87AF6318E24F9F00A95FDB /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		1C87AF6518E24FC500A95FDB /* MenuLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuLabel.h; sourceTree = "<group>"; };
+		1C87AF6618E24FC500A95FDB /* MenuLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuLabel.m; sourceTree = "<group>"; };
+		1C87AF6718E24FC500A95FDB /* TitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleLabel.h; sourceTree = "<group>"; };
+		1C87AF6818E24FC500A95FDB /* TitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleLabel.m; sourceTree = "<group>"; };
+		1C87AF6B18E24FD300A95FDB /* Wamba.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wamba.h; sourceTree = "<group>"; };
+		1C87AF6C18E24FD300A95FDB /* Wamba.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wamba.m; sourceTree = "<group>"; };
+		1C87AF6D18E24FD300A95FDB /* RedBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedBlock.h; sourceTree = "<group>"; };
+		1C87AF6E18E24FD300A95FDB /* RedBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedBlock.m; sourceTree = "<group>"; };
+		1C87AF6F18E24FD300A95FDB /* GreenDot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenDot.h; sourceTree = "<group>"; };
+		1C87AF7018E24FD300A95FDB /* GreenDot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenDot.m; sourceTree = "<group>"; };
+		1C87AF9718E253D800A95FDB /* EDMainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDMainMenuScene.h; sourceTree = "<group>"; };
+		1C87AF9818E253D800A95FDB /* EDMainMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDMainMenuScene.m; sourceTree = "<group>"; };
+		1C87AF9918E253D800A95FDB /* EDSettingsScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDSettingsScene.h; sourceTree = "<group>"; };
+		1C87AF9A18E253D800A95FDB /* EDSettingsScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDSettingsScene.m; sourceTree = "<group>"; };
+		1C87AF9B18E253D800A95FDB /* EDGameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDGameOverScene.h; sourceTree = "<group>"; };
+		1C87AF9C18E253D800A95FDB /* EDGameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDGameOverScene.m; sourceTree = "<group>"; };
+		1C87AFA118E253F600A95FDB /* EDMyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDMyScene.h; sourceTree = "<group>"; };
+		1C87AFA218E253F600A95FDB /* EDMyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDMyScene.m; sourceTree = "<group>"; };
+		1C9D4402192AE83300C23EE6 /* callistoLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callistoLogo.png; sourceTree = "<group>"; };
+		1CA6D01F19569CC600B074A4 /* green-dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-dot.png"; sourceTree = "<group>"; };
+		1CA6D02119569CD700B074A4 /* enemy-blob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "enemy-blob.png"; sourceTree = "<group>"; };
+		1CA6D02319569CE700B074A4 /* wamba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wamba.png; sourceTree = "<group>"; };
+		1CA6D02419569CE700B074A4 /* wamba@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wamba@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C87AF6218E24F3F00A95FDB /* iAd.framework in Frameworks */,
 				1C87AF2518E24F1F00A95FDB /* CoreGraphics.framework in Frameworks */,
 				1C87AF2718E24F1F00A95FDB /* UIKit.framework in Frameworks */,
 				1C87AF2918E24F1F00A95FDB /* SpriteKit.framework in Frameworks */,
@@ -89,6 +131,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C122F3D18ECF320009B21AF /* Credits */ = {
+			isa = PBXGroup;
+			children = (
+				1C122F3A18ECF312009B21AF /* EDCreditsScene.h */,
+				1C122F3B18ECF312009B21AF /* EDCreditsScene.m */,
+			);
+			name = Credits;
+			sourceTree = "<group>";
+		};
+		1C35A83B1937CA5500EDD783 /* How to Play */ = {
+			isa = PBXGroup;
+			children = (
+				1C35A8381937CA4D00EDD783 /* EDHowToPlayScene.h */,
+				1C35A8391937CA4D00EDD783 /* EDHowToPlayScene.m */,
+			);
+			name = "How to Play";
+			sourceTree = "<group>";
+		};
 		1C87AF1618E24F1F00A95FDB = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +171,7 @@
 		1C87AF2118E24F1F00A95FDB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1C87AF6118E24F3F00A95FDB /* iAd.framework */,
 				1C87AF2218E24F1F00A95FDB /* Foundation.framework */,
 				1C87AF2418E24F1F00A95FDB /* CoreGraphics.framework */,
 				1C87AF2618E24F1F00A95FDB /* UIKit.framework */,
@@ -123,15 +184,12 @@
 		1C87AF2A18E24F1F00A95FDB /* Eat Dots */ = {
 			isa = PBXGroup;
 			children = (
-				1C87AF3318E24F1F00A95FDB /* EDAppDelegate.h */,
-				1C87AF3418E24F1F00A95FDB /* EDAppDelegate.m */,
-				1C87AF3618E24F1F00A95FDB /* Main_iPhone.storyboard */,
-				1C87AF3918E24F1F00A95FDB /* Main_iPad.storyboard */,
-				1C87AF3C18E24F1F00A95FDB /* EDViewController.h */,
-				1C87AF3D18E24F1F00A95FDB /* EDViewController.m */,
-				1C87AF3F18E24F1F00A95FDB /* EDMyScene.h */,
-				1C87AF4018E24F1F00A95FDB /* EDMyScene.m */,
-				1C87AF4218E24F1F00A95FDB /* Spaceship.png */,
+				1C87AF6418E24FA600A95FDB /* Constants */,
+				1C87AF7618E2511300A95FDB /* App Delegate */,
+				1C87AF7718E2512700A95FDB /* Sprites */,
+				1C87AF7818E2514200A95FDB /* Label Nodes */,
+				1C87AF7418E24FEC00A95FDB /* View Controller */,
+				1C87AF9418E253BE00A95FDB /* Scenes */,
 				1C87AF4418E24F1F00A95FDB /* Images.xcassets */,
 				1C87AF2B18E24F1F00A95FDB /* Supporting Files */,
 			);
@@ -141,6 +199,12 @@
 		1C87AF2B18E24F1F00A95FDB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1CA6D02319569CE700B074A4 /* wamba.png */,
+				1CA6D02419569CE700B074A4 /* wamba@2x.png */,
+				1CA6D01F19569CC600B074A4 /* green-dot.png */,
+				1CA6D02119569CD700B074A4 /* enemy-blob.png */,
+				1C87AF7518E2510900A95FDB /* Storyboards */,
+				1C9D4402192AE83300C23EE6 /* callistoLogo.png */,
 				1C87AF2C18E24F1F00A95FDB /* Eat Dots-Info.plist */,
 				1C87AF2D18E24F1F00A95FDB /* InfoPlist.strings */,
 				1C87AF3018E24F1F00A95FDB /* main.m */,
@@ -165,6 +229,154 @@
 				1C87AF5418E24F1F00A95FDB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C87AF6418E24FA600A95FDB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1C87AF6318E24F9F00A95FDB /* Constants.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		1C87AF7418E24FEC00A95FDB /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1C87AF3C18E24F1F00A95FDB /* EDViewController.h */,
+				1C87AF3D18E24F1F00A95FDB /* EDViewController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		1C87AF7518E2510900A95FDB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1C87AF3618E24F1F00A95FDB /* Main_iPhone.storyboard */,
+				1C87AF3918E24F1F00A95FDB /* Main_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		1C87AF7618E2511300A95FDB /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1C87AF3318E24F1F00A95FDB /* EDAppDelegate.h */,
+				1C87AF3418E24F1F00A95FDB /* EDAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		1C87AF7718E2512700A95FDB /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				1CC3FD6318ECBDE500E1C9EB /* Wamba */,
+				1CC3FD6418ECBDEB00E1C9EB /* Red Block */,
+				1CC3FD6518ECBDF600E1C9EB /* Green Dot */,
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
+		1C87AF7818E2514200A95FDB /* Label Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				1CC3FD6618ECBE0D00E1C9EB /* Menu Buttons */,
+				1CC3FD6718ECBE1C00E1C9EB /* Title Labels */,
+			);
+			name = "Label Nodes";
+			sourceTree = "<group>";
+		};
+		1C87AF9418E253BE00A95FDB /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1C87AFA418E256BB00A95FDB /* Main Menu */,
+				1C35A83B1937CA5500EDD783 /* How to Play */,
+				1C87AFA618E256D400A95FDB /* Game Scene */,
+				1C87AFA718E256EB00A95FDB /* Options - UNUSED */,
+				1C87AFA818E256FD00A95FDB /* Game Over */,
+				1C122F3D18ECF320009B21AF /* Credits */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		1C87AFA418E256BB00A95FDB /* Main Menu */ = {
+			isa = PBXGroup;
+			children = (
+				1C87AF9718E253D800A95FDB /* EDMainMenuScene.h */,
+				1C87AF9818E253D800A95FDB /* EDMainMenuScene.m */,
+			);
+			name = "Main Menu";
+			sourceTree = "<group>";
+		};
+		1C87AFA618E256D400A95FDB /* Game Scene */ = {
+			isa = PBXGroup;
+			children = (
+				1C87AFA118E253F600A95FDB /* EDMyScene.h */,
+				1C87AFA218E253F600A95FDB /* EDMyScene.m */,
+			);
+			name = "Game Scene";
+			sourceTree = "<group>";
+		};
+		1C87AFA718E256EB00A95FDB /* Options - UNUSED */ = {
+			isa = PBXGroup;
+			children = (
+				1C87AF9918E253D800A95FDB /* EDSettingsScene.h */,
+				1C87AF9A18E253D800A95FDB /* EDSettingsScene.m */,
+			);
+			name = "Options - UNUSED";
+			sourceTree = "<group>";
+		};
+		1C87AFA818E256FD00A95FDB /* Game Over */ = {
+			isa = PBXGroup;
+			children = (
+				1C87AF9B18E253D800A95FDB /* EDGameOverScene.h */,
+				1C87AF9C18E253D800A95FDB /* EDGameOverScene.m */,
+			);
+			name = "Game Over";
+			sourceTree = "<group>";
+		};
+		1CC3FD6318ECBDE500E1C9EB /* Wamba */ = {
+			isa = PBXGroup;
+			children = (
+				1C87AF6B18E24FD300A95FDB /* Wamba.h */,
+				1C87AF6C18E24FD300A95FDB /* Wamba.m */,
+			);
+			name = Wamba;
+			sourceTree = "<group>";
+		};
+		1CC3FD6418ECBDEB00E1C9EB /* Red Block */ = {
+			isa = PBXGroup;
+			children = (
+				1C87AF6D18E24FD300A95FDB /* RedBlock.h */,
+				1C87AF6E18E24FD300A95FDB /* RedBlock.m */,
+			);
+			name = "Red Block";
+			sourceTree = "<group>";
+		};
+		1CC3FD6518ECBDF600E1C9EB /* Green Dot */ = {
+			isa = PBXGroup;
+			children = (
+				1C87AF6F18E24FD300A95FDB /* GreenDot.h */,
+				1C87AF7018E24FD300A95FDB /* GreenDot.m */,
+			);
+			name = "Green Dot";
+			sourceTree = "<group>";
+		};
+		1CC3FD6618ECBE0D00E1C9EB /* Menu Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				1C87AF6518E24FC500A95FDB /* MenuLabel.h */,
+				1C87AF6618E24FC500A95FDB /* MenuLabel.m */,
+			);
+			name = "Menu Buttons";
+			sourceTree = "<group>";
+		};
+		1CC3FD6718ECBE1C00E1C9EB /* Title Labels */ = {
+			isa = PBXGroup;
+			children = (
+				1C87AF6718E24FC500A95FDB /* TitleLabel.h */,
+				1C87AF6818E24FC500A95FDB /* TitleLabel.m */,
+			);
+			name = "Title Labels";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +427,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Callisto Game Studios";
 				TargetAttributes = {
+					1C87AF1E18E24F1F00A95FDB = {
+						DevelopmentTeam = 7KUYRHP2RD;
+					};
 					1C87AF4918E24F1F00A95FDB = {
 						TestTargetID = 1C87AF1E18E24F1F00A95FDB;
 					};
@@ -244,11 +459,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C87AF4318E24F1F00A95FDB /* Spaceship.png in Resources */,
+				1CA6D02219569CD700B074A4 /* enemy-blob.png in Resources */,
 				1C87AF4518E24F1F00A95FDB /* Images.xcassets in Resources */,
+				1CA6D02019569CC600B074A4 /* green-dot.png in Resources */,
 				1C87AF3B18E24F1F00A95FDB /* Main_iPad.storyboard in Resources */,
+				1CA6D02519569CE700B074A4 /* wamba.png in Resources */,
+				1CA6D02619569CE700B074A4 /* wamba@2x.png in Resources */,
 				1C87AF3818E24F1F00A95FDB /* Main_iPhone.storyboard in Resources */,
 				1C87AF2F18E24F1F00A95FDB /* InfoPlist.strings in Resources */,
+				1C9D4403192AE83300C23EE6 /* callistoLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +486,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C87AF9E18E253D800A95FDB /* EDMainMenuScene.m in Sources */,
+				1C87AF7318E24FD300A95FDB /* GreenDot.m in Sources */,
+				1C122F3C18ECF312009B21AF /* EDCreditsScene.m in Sources */,
+				1C87AFA318E253F600A95FDB /* EDMyScene.m in Sources */,
+				1C87AF7118E24FD300A95FDB /* Wamba.m in Sources */,
 				1C87AF3E18E24F1F00A95FDB /* EDViewController.m in Sources */,
+				1C87AF9F18E253D800A95FDB /* EDSettingsScene.m in Sources */,
+				1C87AF6918E24FC500A95FDB /* MenuLabel.m in Sources */,
+				1C87AF7218E24FD300A95FDB /* RedBlock.m in Sources */,
+				1C35A83A1937CA4D00EDD783 /* EDHowToPlayScene.m in Sources */,
 				1C87AF3118E24F1F00A95FDB /* main.m in Sources */,
+				1C87AF6A18E24FC500A95FDB /* TitleLabel.m in Sources */,
+				1C87AFA018E253D800A95FDB /* EDGameOverScene.m in Sources */,
 				1C87AF3518E24F1F00A95FDB /* EDAppDelegate.m in Sources */,
-				1C87AF4118E24F1F00A95FDB /* EDMyScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +573,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Craig Rhodes (7KUYRHP2RD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Craig Rhodes (7KUYRHP2RD)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -383,7 +613,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Craig Rhodes (7KUYRHP2RD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Craig Rhodes (7KUYRHP2RD)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -405,11 +636,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Craig Rhodes (7KUYRHP2RD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Craig Rhodes (7KUYRHP2RD)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Eat Dots/Eat Dots-Prefix.pch";
 				INFOPLIST_FILE = "Eat Dots/Eat Dots-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B24C7116-567E-4CAF-859F-D1AC796E3716";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -419,11 +655,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Craig Rhodes (7KUYRHP2RD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Craig Rhodes (7KUYRHP2RD)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Eat Dots/Eat Dots-Prefix.pch";
 				INFOPLIST_FILE = "Eat Dots/Eat Dots-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B24C7116-567E-4CAF-859F-D1AC796E3716";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -468,6 +709,77 @@
 			};
 			name = Release;
 		};
+		1C9BCC9E192AFCDC0080BD78 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Craig Rhodes (7KUYRHP2RD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Craig Rhodes (7KUYRHP2RD)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		1C9BCC9F192AFCDC0080BD78 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Craig Rhodes (7KUYRHP2RD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Craig Rhodes (7KUYRHP2RD)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Eat Dots/Eat Dots-Prefix.pch";
+				INFOPLIST_FILE = "Eat Dots/Eat Dots-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B24C7116-567E-4CAF-859F-D1AC796E3716";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		1C9BCCA0192AFCDC0080BD78 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Eat Dots.app/Eat Dots";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Eat Dots/Eat Dots-Prefix.pch";
+				INFOPLIST_FILE = "Eat DotsTests/Eat DotsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Distribution;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -476,6 +788,7 @@
 			buildConfigurations = (
 				1C87AF5918E24F1F00A95FDB /* Debug */,
 				1C87AF5A18E24F1F00A95FDB /* Release */,
+				1C9BCC9E192AFCDC0080BD78 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -485,16 +798,20 @@
 			buildConfigurations = (
 				1C87AF5C18E24F1F00A95FDB /* Debug */,
 				1C87AF5D18E24F1F00A95FDB /* Release */,
+				1C9BCC9F192AFCDC0080BD78 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C87AF5E18E24F1F00A95FDB /* Build configuration list for PBXNativeTarget "Eat DotsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C87AF5F18E24F1F00A95FDB /* Debug */,
 				1C87AF6018E24F1F00A95FDB /* Release */,
+				1C9BCCA0192AFCDC0080BD78 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
